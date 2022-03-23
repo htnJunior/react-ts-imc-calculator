@@ -2,6 +2,7 @@
 
 Projeto em React + TS
 uma calculadora de IMC.
+Projeto para fins de estudos.
 
 ### Instalação
 - `npm install`
