@@ -42,6 +42,10 @@ body{
     font-size: 14px;
 }
 
+.container .leftSide input:disable{
+    opacity: .5;
+}
+
 .container .leftSide button{
     background-color: #227C9D;
     color: #fff;
@@ -59,6 +63,10 @@ body{
     opacity: 0.9;
 }
 
+.container .leftSide button:disabled{
+    opacity: 0.5;
+}
+
 .container .rightSide{
     flex: 1;
     margin-left: 40px;
@@ -70,4 +78,29 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+}
+
+.container .rightSide .rightToBig{
+    flex: 1;
+    display: flex;
+
+}
+
+.container .rightSide .rightArrow{
+    position: absolute;
+    background-color: #227C9D;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: -35px;
+    margin-top: 135px;
+    transition: all ease .3s;
+}
+
+.container .rightSide .rightArrow:hover{
+    opacity: .8;
 }
